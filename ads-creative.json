@@ -1,0 +1,151 @@
+{
+  "template_name": "15-second vertical product carousel ad",
+  "template_version": "1.0",
+  "reference_style_summary": "Vertical social-media sale ad with a fixed dark textured background, a three-column product-image carousel, fast horizontal slides, a promotional headline, and a final call-to-action card.",
+  "variables_to_replace": {
+    "brand_name": "[YOUR BRAND NAME]",
+    "product_category": "[PRODUCT CATEGORY]",
+    "campaign_name": "[CAMPAIGN OR SALE NAME]",
+    "offer_text": "[VERIFIED OFFER, e.g. UP TO 30% OFF]",
+    "website_url": "[YOUR WEBSITE URL]",
+    "cta_text": "[CTA, e.g. SHOP NOW]",
+    "background_style": "[BRAND-APPROPRIATE DARK OR NEUTRAL TEXTURE]",
+    "brand_colors": "[BRAND COLORS]",
+    "accent_color": "[ACCENT COLOR]",
+    "music_style": "[MUSIC STYLE OR MOOD]",
+    "products": [
+      {
+        "product_name": "[PRODUCT 1]",
+        "visual_description": "[ACCURATE PRODUCT/APPEARANCE DETAILS]",
+        "image_or_reference": "[OPTIONAL REFERENCE IMAGE]"
+      },
+      {
+        "product_name": "[PRODUCT 2]",
+        "visual_description": "[ACCURATE PRODUCT/APPEARANCE DETAILS]",
+        "image_or_reference": "[OPTIONAL REFERENCE IMAGE]"
+      },
+      {
+        "product_name": "[PRODUCT 3]",
+        "visual_description": "[ACCURATE PRODUCT/APPEARANCE DETAILS]",
+        "image_or_reference": "[OPTIONAL REFERENCE IMAGE]"
+      },
+      {
+        "product_name": "[PRODUCT 4]",
+        "visual_description": "[ACCURATE PRODUCT/APPEARANCE DETAILS]",
+        "image_or_reference": "[OPTIONAL REFERENCE IMAGE]"
+      },
+      {
+        "product_name": "[PRODUCT 5]",
+        "visual_description": "[ACCURATE PRODUCT/APPEARANCE DETAILS]",
+        "image_or_reference": "[OPTIONAL REFERENCE IMAGE]"
+      },
+      {
+        "product_name": "[PRODUCT 6]",
+        "visual_description": "[ACCURATE PRODUCT/APPEARANCE DETAILS]",
+        "image_or_reference": "[OPTIONAL REFERENCE IMAGE]"
+      }
+    ]
+  },
+  "video_settings": {
+    "duration_seconds": 15,
+    "aspect_ratio": "9:16",
+    "orientation": "vertical",
+    "platforms": ["TikTok", "Instagram Reels", "YouTube Shorts"],
+    "visual_style": "Polished, modern e-commerce advertisement; clean product photography; consistent lighting and color treatment; energetic but uncluttered composition.",
+    "camera": "Locked-off camera; create movement through smooth horizontal image-panel slides, not camera shake.",
+    "layout": "Three-column carousel/grid. Keep the featured product large and centered; neighboring columns show cropped previews of adjacent product images. Maintain consistent gutters and alignment.",
+    "background": "Use {{background_style}} as a consistent, subtle full-frame background. Apply {{brand_colors}} and {{accent_color}} consistently.",
+    "text_rendering": "Use the exact supplied copy only. Keep all text correctly spelled, high contrast, inside mobile-safe margins, and readable. Do not invent prices, discounts, guarantees, product benefits, or claims.",
+    "audio": {
+      "music": "{{music_style}}; upbeat, rhythmic, and suitable for a short social ad. Align carousel transitions to the beat where possible.",
+      "voiceover": "None by default. Add only if separately supplied by the user.",
+      "sound_effects": "Optional subtle whoosh or click synchronized with panel slides and CTA reveal."
+    },
+    "branding_and_export": {
+      "show_brand_name": true,
+      "show_website_url": true,
+      "watermarks": "Do not add CapCut, AI-tool, stock, or other third-party watermarks. Do not imitate the watermark in the reference video.",
+      "logo": "Use only the supplied brand logo asset; do not invent or distort a logo. If none is supplied, omit the logo."
+    }
+  },
+  "timeline": [
+    {
+      "start": "00:00",
+      "end": "00:02",
+      "purpose": "Hook and offer",
+      "visual": "Show the first featured product in the center panel against the established background. Reveal the campaign headline {{campaign_name}} at the top, followed by {{offer_text}}. Keep the product and offer immediately legible.",
+      "motion_and_transition": "Begin with the layout already composed and stable. Add a subtle, quick entrance to the headline, then hold the first product clearly. At the end, slide the full image strip horizontally to the next product in one smooth, beat-synchronized move; retain the fixed background and headline position.",
+      "on_screen_text": ["{{campaign_name}}", "{{offer_text}}"]
+    },
+    {
+      "start": "00:02",
+      "end": "00:04",
+      "purpose": "Product showcase 1",
+      "product": "{{products[1]}}",
+      "visual": "Feature product 1 in the central column using its supplied reference or accurate visual description. Neighboring panels show partial views of adjacent products.",
+      "motion_and_transition": "Keep the background fixed while the three-column image strip slides horizontally by one position. Settle briefly with product 1 centered, then begin the next slide on the beat. Preserve product shape, color, and details.",
+      "on_screen_text": []
+    },
+    {
+      "start": "00:04",
+      "end": "00:06",
+      "purpose": "Product showcase 2",
+      "product": "{{products[2]}}",
+      "visual": "Feature product 2 in the central column, with consistent framing, lighting, scale, and background.",
+      "motion_and_transition": "Continue the smooth horizontal carousel slide and settle product 2 in the center. Maintain the fixed layout and avoid warping, morphing, or changing the product between frames.",
+      "on_screen_text": []
+    },
+    {
+      "start": "00:06",
+      "end": "00:08",
+      "purpose": "Product showcase 3",
+      "product": "{{products[3]}}",
+      "visual": "Feature product 3 in the central column; show accurate supplied product details and no unsupported claims.",
+      "motion_and_transition": "Slide the image strip horizontally by one panel and settle with product 3 centered. Keep the camera locked and synchronize the transition to the music beat.",
+      "on_screen_text": []
+    },
+    {
+      "start": "00:08",
+      "end": "00:10",
+      "purpose": "Product showcase 4",
+      "product": "{{products[4]}}",
+      "visual": "Feature product 4 in the central column with the same visual treatment and scale as the preceding products.",
+      "motion_and_transition": "Move the carousel horizontally in a clean, even slide. Hold the centered product long enough to be seen; retain consistent lighting and avoid sudden changes in the background or layout.",
+      "on_screen_text": []
+    },
+    {
+      "start": "00:10",
+      "end": "00:12",
+      "purpose": "Product showcase 5",
+      "product": "{{products[5]}}",
+      "visual": "Feature product 5 in the central column, with cropped neighboring product previews at the sides.",
+      "motion_and_transition": "Slide horizontally to product 5 and settle. Preserve product identity, colors, and proportions. Use the same rhythm and motion direction as earlier transitions.",
+      "on_screen_text": []
+    },
+    {
+      "start": "00:12",
+      "end": "00:14",
+      "purpose": "Final product showcase",
+      "product": "{{products[6]}}",
+      "visual": "Feature product 6 in the central column for the last showcase beat. Keep the campaign headline and offer visible if they remain clear and uncluttered.",
+      "motion_and_transition": "Slide to product 6, hold briefly, then smoothly move or fade the product panels away to prepare a clean final card. Keep the background and brand colors consistent.",
+      "on_screen_text": []
+    },
+    {
+      "start": "00:14",
+      "end": "00:15",
+      "purpose": "Brand and call to action",
+      "visual": "Show a clean final card with {{brand_name}}, {{cta_text}}, and {{website_url}}. Add a simple shopping-bag or cart icon only if a supplied brand style supports it. Use strong contrast and generous spacing.",
+      "motion_and_transition": "Finish the carousel exit cleanly, reveal the CTA with a quick, restrained pop or fade, and hold the final card steady through the last frame. Do not introduce new products or claims.",
+      "on_screen_text": ["{{brand_name}}", "{{cta_text}}", "{{website_url}}"]
+    }
+  ],
+  "negative_prompt": [
+    "No watermark, CapCut mark, AI-generated signature, stock watermark, or third-party logo.",
+    "No misspelled, scrambled, extra, or invented text.",
+    "No unverified discounts, prices, product claims, guarantees, or scarcity statements.",
+    "No distorted products, changing colors, duplicated objects, malformed hands or faces, or inconsistent product identity.",
+    "No camera shake, unmotivated zooms, abrupt flicker, cluttered composition, or text outside safe margins."
+  ],
+  "production_note": "Replace every bracketed placeholder before generation. Supply product photos or references when possible. For reliably readable typography, generate clean visuals first and add the exact text, logo, URL, and CTA in a video editor after generation. Verify the final offer and URL before publishing."
+}
